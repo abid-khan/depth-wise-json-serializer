@@ -1,4 +1,4 @@
-depth-wise-json-serializer
+Depth wise JSON Serializer
 ==========================
 
 In this blog I will show you, how you can serialize a entity  depth wise.
