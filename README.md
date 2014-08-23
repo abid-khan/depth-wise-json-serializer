@@ -183,7 +183,9 @@ public class UserJsonSerializer extends JsonSerializer<User> {
 				if (null != lastModifiedByUser) {
 					jgen.writeStringField("lastModifiedBy", lastModifiedByUser.getFirstName() + " " + lastModifiedByUser.getLastName());
 				}
+				
         			....
+        			
 				jgen.writeEndObject();
 
 				depth.set(0);
