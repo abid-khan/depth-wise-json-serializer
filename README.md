@@ -174,7 +174,7 @@ public class UserJsonSerializer extends JsonSerializer<User> {
 				
 				...
 			  
-			  User createdByUser = value.getCreatedBy();
+			  	User createdByUser = value.getCreatedBy();
 				if (null != createdByUser) {
 	        jgen.writeStringField("createdBy", createdByUser.getFirstName() + " " + createdByUser.getLastName());
 				}
@@ -183,7 +183,7 @@ public class UserJsonSerializer extends JsonSerializer<User> {
 				if (null != lastModifiedByUser) {
 					jgen.writeStringField("lastModifiedBy", lastModifiedByUser.getFirstName() + " " + lastModifiedByUser.getLastName());
 				}
-        ....
+        			....
 				jgen.writeEndObject();
 
 				depth.set(0);
