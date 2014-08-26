@@ -7,6 +7,8 @@ Why we need it
 ==============
 Very often we land in situation with cyclic reference if target entity has self references. There are multiple solution available  over internet, but none of these will solve your problem. The only option is left to write own depth wise serializer.
 
+Solution
+========
 
 This example is based on spring-data-jpa. Hence forth I will use entity which is used in a spring-data-jpa project. 
 Our target entity is User which  extends AbstractAuditableEntity. Here we have two properties createdBy and lastModifiedBy  referencing to User entity.
