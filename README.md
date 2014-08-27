@@ -279,5 +279,8 @@ JSON String :: {"firstName":"First Name","lastName":"Last Name","createdBy":"Fir
 
 ```
 
+Summary
+=======
+This solution can be used for depth wise and  normal custom json serializer. How deep object graph needs to serialize, fully depends on your requirement. Even you can customized the example as per your need.
 
 
